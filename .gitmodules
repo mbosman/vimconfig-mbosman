@@ -19,3 +19,6 @@
 [submodule "bundle/snippets"]
 	path = bundle/snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/promptline"]
+	path = bundle/promptline
+	url = https://github.com/edkolev/promptline.vim
