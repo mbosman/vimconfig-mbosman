@@ -1,6 +1,7 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+au BufNewFile,BufRead *.ctp set filetype=php
 
 set laststatus=2
 set number
@@ -15,6 +16,9 @@ let g:molokai_original = 1
 colorscheme molokai
 
 let g:user_emmet_mode='a'
-let g:user_emmet_expandabbr_key='<Tab>'
-imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+let g:user_emmet_leader_key=';;'
+" let g:user_emmet_expandabbr_key='<Tab>'
+let g:user_emmet_install_global = 0
+autocmd FileType html,css,php EmmetInstall
+
 let g:NERDTreeDirArrows=0
