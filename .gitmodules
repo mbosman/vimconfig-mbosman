@@ -22,3 +22,6 @@
 [submodule "bundle/promptline"]
 	path = bundle/promptline
 	url = https://github.com/edkolev/promptline.vim
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = https://github.com/bling/vim-airline
