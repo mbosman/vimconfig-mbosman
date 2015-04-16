@@ -25,14 +25,8 @@ nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
 
-"Resize vsplit
-nmap <C-v> :vertical resize +5<cr>
-nmap 25 :vertical resize 40<cr>
-nmap 50 <c-w>=
-nmap 75 :vertical resize 120<cr>
 
 let g:user_emmet_mode='a'
-let g:user_emmet_leader_key=';;'
 " let g:user_emmet_expandabbr_key='<Tab>'
 let g:user_emmet_install_global = 0
 autocmd FileType html,css,php EmmetInstall
