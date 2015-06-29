@@ -34,3 +34,6 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "bundle/blade"]
+	path = bundle/blade
+	url = git://github.com/xsbeats/vim-blade.git
