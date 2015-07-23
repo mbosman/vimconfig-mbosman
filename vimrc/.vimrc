@@ -6,6 +6,8 @@ au BufNewFile,BufRead *.ctp set filetype=php
 set laststatus=2
 set number
 
+set clipboard=unnamedplus
+
 set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
 
 set listchars=tab:>-,trail:~,extends:>,precedes:<
@@ -38,6 +40,7 @@ let g:ctrlp_cmd = 'CtrlP'
 command Views execute "!cd app && Console/cake system.views"
 
 set autowrite  "Save on buffer switch
+set autoread
 
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//

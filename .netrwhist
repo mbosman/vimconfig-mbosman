@@ -1,9 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/srv/codedor/croustifrance/cro001/local/michiel/www'
-let g:netrw_dirhist_2='/srv/codedor/vzwbasisscholen/sji001/local/michiel/www'
-let g:netrw_dirhist_3='/srv/codedor/croustifrance/cro001/local/michiel/www'
-let g:netrw_dirhist_4='/srv/codedor/vzwbasisscholen/sji001/local/michiel/www'
-let g:netrw_dirhist_5='/srv/codedor/codedor/cod413/local/michiel/www'
-let g:netrw_dirhist_6='/srv/codedor/codedor/cod413/local/michiel/www/app'
-let g:netrw_dirhist_7='/srv/codedor/codedor/cod413/local/michiel/www'
+let g:netrw_dirhist_2='/srv/codedor/viaa/vaa001/local/michiel/www'
+let g:netrw_dirhist_3='/srv/codedor/viaa/vaa001/local/michiel/www/app'
+let g:netrw_dirhist_4='/srv/codedor/viaa/vaa001/local/michiel/www'
+let g:netrw_dirhist_5='/srv/codedor/123piano/pia001/local/michiel/www/public_html/wp-content/themes/retlehs-roots-2f03e92'
+let g:netrw_dirhist_6='/srv/codedor/123piano/pia001/local/michiel/www/public_html'
+let g:netrw_dirhist_7='/srv/codedor/123piano/pia001/local/michiel/www/public_html/wp-content/themes/retlehs-roots-2f03e92'
+let g:netrw_dirhist_8='/srv/codedor/ardo/ard002/local/michiel/www'

@@ -34,3 +34,9 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
+[submodule "bundle/php-cs-fixer"]
+	path = bundle/php-cs-fixer
+	url = https://github.com/FriendsOfPHP/PHP-CS-Fixer
