@@ -1,6 +1,5 @@
 execute pathogen#infect()
 syntax on
-filetype plugin indent on
 au BufNewFile,BufRead *.ctp set filetype=php
 
 set laststatus=2
@@ -8,7 +7,11 @@ set number
 
 set clipboard=unnamedplus
 
+filetype plugin indent on
 set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
+"set tabstop=4
+"set shiftwidth=4
+"set expandtab
 
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
@@ -54,3 +57,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+let g:php_cs_fixer_path = "~/.vim/php-cs-fixer.phar"
+let g:php_cs_fixer_level = "psr2"
+let g:php_cs_fixer_dry_run = 0
+let g:php_cs_fixer_verbose = 1
