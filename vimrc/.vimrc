@@ -8,10 +8,10 @@ set number
 set clipboard=unnamedplus
 
 filetype plugin indent on
-set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
-"set tabstop=4
-"set shiftwidth=4
-"set expandtab
+"set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
@@ -41,6 +41,8 @@ let g:NERDTreeDirArrows=0
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 command Views execute "!cd app && Console/cake system.views"
+
+nmap <F8> :TagbarToggle<CR>
 
 set autowrite  "Save on buffer switch
 set autoread
