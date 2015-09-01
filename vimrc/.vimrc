@@ -67,3 +67,4 @@ let g:php_cs_fixer_path = "~/.vim/php-cs-fixer.phar"
 let g:php_cs_fixer_level = "psr2"
 let g:php_cs_fixer_dry_run = 0
 let g:php_cs_fixer_verbose = 1
+let g:tagbar_ctags_bin = "~/.vim/vendor/ctags/bin/ctags"
