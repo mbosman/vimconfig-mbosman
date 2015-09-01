@@ -60,6 +60,9 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+if $COLORTERM == 'gnome-terminal'
+	set t_Co=256
+endif
 let g:php_cs_fixer_path = "~/.vim/php-cs-fixer.phar"
 let g:php_cs_fixer_level = "psr2"
 let g:php_cs_fixer_dry_run = 0
