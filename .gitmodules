@@ -40,3 +40,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
+[submodule "bundle/pdv-standalone"]
+	path = bundle/pdv-standalone
+	url = https://github.com/freeman2501/pdv-standalone.git
