@@ -43,3 +43,6 @@
 [submodule "bundle/Dockerfile"]
 	path = bundle/Dockerfile
 	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "bundle/bladesyntax"]
+	path = bundle/bladesyntax
+	url = https://github.com/jwalton512/vim-blade.git
