@@ -52,3 +52,6 @@
 [submodule "bundle/angular"]
 	path = bundle/angular
 	url = https://github.com/burnettk/vim-angular.git
+[submodule "bundle/editorconfig"]
+	path = bundle/editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim.git
