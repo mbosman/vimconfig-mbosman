@@ -55,6 +55,8 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+let g:syntastic_php_checkers = ['php']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
@@ -68,3 +70,10 @@ let g:php_cs_fixer_level = "psr2"
 let g:php_cs_fixer_dry_run = 0
 let g:php_cs_fixer_verbose = 1
 let g:tagbar_ctags_bin = "~/.vim/vendor/ctags/bin/ctags"
+
+let g:pdv_cfg_Author = 'Michiel Bosman <michiel@codedor.be>'
+let g:pdv_cfg_Since = strftime("%Y-%m-%d")
+let g:pdv_cfg_Version = strftime("%Y-%m-%d")
+nnoremap <C-F> :call PhpDocSingle()<CR>
+vnoremap <C-F> :call PhpDocRange()<CR>
+

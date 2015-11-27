@@ -7,3 +7,16 @@ endsnippet
 snippet dd
 	die(var_dump(${0}));
 endsnippet:
+snippet ess
+	echo __d('${1:}', '[$1.${2}]');
+endsnippet:
+snippet pess
+	<?php echo __d('${1:}', '[$1.${2}]'); ?>
+endsnippet:
+snippet tfl
+	$title_for_layout = __d('${1:}', '[$1.${2}]');
+endsnippet:
+snippet tfls
+	$title_for_layout = __d('${1:}', '[$1.${2}]');
+	$this->set(compact('title_for_layout'));
+endsnippet:
