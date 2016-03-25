@@ -43,6 +43,7 @@ let g:ctrlp_cmd = 'CtrlP'
 command Views execute "!cd app && Console/cake system.views"
 
 nmap <F8> :TagbarToggle<CR>
+nmap <F9> :NERDTreeToggle<CR>
 
 set autowrite  "Save on buffer switch
 set autoread
