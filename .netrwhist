@@ -1,5 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/srv/codedor/ardo/ard002/local/michiel/www'
 let g:netrw_dirhist_2='/srv/codedor/ardo/ard002/local/michiel/www/app'
 let g:netrw_dirhist_3='/srv/codedor/vialegis/via009/local/michiel/www'
+let g:netrw_dirhist_4='/Users/michiel/.vim'
+let g:netrw_dirhist_5='/Users/michiel/Code/boilerplate-test'
+let g:netrw_dirhist_6='/Users/michiel/.vim/zsh'
+let g:netrw_dirhist_7='/Users/michiel/Code/mobistar-coyote'

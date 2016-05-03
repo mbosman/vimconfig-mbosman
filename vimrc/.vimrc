@@ -5,7 +5,8 @@ au BufNewFile,BufRead *.ctp set filetype=php
 set laststatus=2
 set number
 
-set clipboard=unnamedplus
+set clipboard=unnamed
+
 
 filetype plugin indent on
 "set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
@@ -40,7 +41,6 @@ let g:NERDTreeDirArrows=0
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
-command Views execute "!cd app && Console/cake system.views"
 
 nmap <F8> :TagbarToggle<CR>
 nmap <F9> :NERDTreeToggle<CR>
@@ -51,6 +51,8 @@ set autoread
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 
+set nocompatible
+set backspace=2
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -72,7 +74,7 @@ let g:php_cs_fixer_dry_run = 0
 let g:php_cs_fixer_verbose = 1
 let g:tagbar_ctags_bin = "~/.vim/vendor/ctags/bin/ctags"
 
-let g:pdv_cfg_Author = 'Michiel Bosman <michiel@codedor.be>'
+let g:pdv_cfg_Author = 'Michiel Bosman <michiel@sevenedge.be>'
 let g:pdv_cfg_Since = strftime("%Y-%m-%d")
 let g:pdv_cfg_Version = strftime("%Y-%m-%d")
 nnoremap <C-F> :call PhpDocSingle()<CR>
