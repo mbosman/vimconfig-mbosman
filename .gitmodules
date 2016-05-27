@@ -64,3 +64,6 @@
 [submodule "bundle/dash"]
 	path = bundle/dash
 	url = https://github.com/rizzatti/dash.vim.git
+[submodule "bundle/obsession"]
+	path = bundle/obsession
+	url = git://github.com/tpope/vim-obsession.git
